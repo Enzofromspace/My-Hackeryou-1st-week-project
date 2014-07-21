@@ -1,0 +1,288 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+		body{
+			margin:0;
+			font-family: 'Buda', cursive;
+		}
+		
+		*{	-webkit-background-size: ;
+			background-size: ;
+		}
+
+		*{
+     	 -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   		 }
+
+		h1{
+			font-family: 'Press Start 2P', cursive;
+
+		}
+   		.clearfix:after {
+   			 visibility: hidden;
+    		display: block;
+    		font-size: 0;
+    		content: " ";
+    		clear: both;
+    		height: 0;
+    		}
+		
+		.wrapper{
+			background: url(images/stardust.png);
+			margin: 0 auto;
+			overflow:hidden;
+		}
+		
+		.container{
+			width: 1000px;
+			margin: 0 auto;
+			/*border: 5px solid black;*/
+			padding:20px;
+		
+		}
+/*    also didnt work
+		.clearfix{
+			visibility: hidden;
+			display: block;
+			font-size:0;
+			content:" ";
+			clear:both;
+			height: 0;
+
+		}*/
+
+		.navbar{
+			width: 100%;
+			background: black;
+			position: fixed;
+			overflow: hidden;
+		}
+
+		.navbar a{
+			text-decoration: none;
+			color: orange;
+			font-size: 24px;
+			font-family: 'Buda', cursive;
+			line-height: 1.5;	
+			letter-spacing: 0.5;
+			padding: 15px;
+
+		}
+
+		.navbar a:hover, a:active{
+				background-color: orange;
+				color: black;
+		}
+
+		.header{
+			background: url(images/hKViPxgDRGuiGns6wv5S_IMG_5317.jpeg);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			color:#fff;
+			height: 100%;
+			padding-bottom: 550px; 
+		}
+
+		.title{
+			padding: 100px;
+		}
+
+		.title .container{
+			background: url(images/stardust.png); 
+
+		}
+
+		.title h1{
+			font-size: 75px;
+			text-align: center;	
+			color: orange;
+			padding-top: 25px;
+			text-shadow: 4px 4px 0 #000;
+			margin: 0 auto;
+		}
+
+		.title h2{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.title h3{
+			text-align: center;
+			margin: 30px;
+		}
+
+		.title span{
+			font-family: 'Press Start 2P', cursive;
+			font-size: 12px;
+
+		}
+		
+/*		.skills {     MY CODE THAT DIDNT WORK, Thoughts??
+			width: 100%;
+			padding-left: 25px;
+			padding-top: 30px;
+			background: url(images/stardust.png);
+		}
+
+		.skills .box1, .box2, .box3{
+			width: 30%;
+			height: 100px;
+			float:left;
+			border: 1px solid black;
+			text-align: center;
+			margin-right: 2.5%;
+
+		}
+
+		.skills .blurb1, .blurb2, .blurb3{
+			width: 30%;
+			height: 150px;
+			margin-right: 2.6%;
+			float:left;
+			line-height:1.5;
+			letter-spacing:.5;*/
+		/*}*/
+		.about{
+			width:100%;
+			background: orange;
+		}
+
+		.about img{
+			width:300px;
+			height: 300px;
+			float:left;
+			margin:15px;
+			border: 2px solid black;
+			box-shadow: -webkit-box-shadow: -3px 4px 5px 0px rgba(0, 0, 0, 0.82);
+						-moz-box-shadow:    -3px 4px 5px 0px rgba(0, 0, 0, 0.82);
+						box-shadow:         -3px 4px 5px 0px rgba(0, 0, 0, 0.82);
+		}
+		.about p{
+			margin:top 15px;
+		}
+		.about p span{
+			font-size: 36px;
+		}
+
+		.about .container{
+			border: none;
+		}
+		.main{
+			width:100%;
+		}
+		.main h1{
+			font-size: 50px;
+			text-align: center;	
+			color: orange;
+			padding-top: 5px;
+			text-shadow: 4px 4px 0 #000;
+			margin-bottom: 36px;
+			margin-top: 24px;
+
+		}
+		.box1{
+			width:31%;
+			height:300px;
+			float:left;
+			margin:1%;
+			border-style: 1px outset orange;
+			background: url(images/mediaedit.jpg);
+		}	
+		.box2{
+			width:31%;
+			height:300px;
+			float:left;
+			margin:1%;
+			border-style: 1px outset orange;
+			background: url(images/webpicedit.jpg);
+
+		}	
+		.box3{
+			width:31%;
+			height:300px;
+			float:left;
+			margin:1%;
+			border-style: 1px outset orange;
+			background: url(images/predit.jpg)
+		}	
+
+		.box1 h2, .box2 h2, .box3 h2{
+			text-align: center;
+			letter-spacing: .7;
+			padding:75px;
+			font-size: -webkit-xxx-large;
+			color: #fff;
+			text-shadow: -2px 1px 6px rgba(150, 150, 150, 0.65);
+		}
+
+		.blurb1, .blurb2, .blurb3{
+			letter-spacing: .5;
+			line-height: 1.5;
+			width:31%;
+			float:left;
+			margin:1.1%;
+			color: #fff;
+		}
+		.showcase{
+			width:100%;
+			background: orange;
+		}
+		.showcase h1{
+			font-size: 75px;
+			text-align: center;	
+			color: black;
+			padding-top: 5px;
+			text-shadow: 4px 4px 0 #fff;
+			margin-bottom: 36px;
+			margin-top: 24px;
+		}
+		.case1 img{
+			width:45%;
+			height:300px;
+			float:left;
+			margin-left:45px;
+			margin-right: 45px;
+			border-style: 1px outset black;
+		}	
+		.case2 img{
+			width:44%;
+			height:300px;
+			float:left;
+			margin-right: 45px;
+			border-style: 1px outset black;
+		}
+		.case3, .case4{
+			letter-spacing: .5;
+			line-height: 1.5;
+			width:45%;
+			float:left;
+			margin-left: 45px;
+		}
+		.footer{
+			color: #fff;
+			font-size: larger;
+		}
+		.social{
+			float:left;
+			margin-right: 150px;
+		}
+		.social i{
+			font-size: 36px;
+			margin: 0 15px 50px	0;
+		}
+		.footer a{
+			text-decoration: none;
+			color: orange;
+			font-size: 24px;
+			font-family: 'Buda', cursive;
+			line-height: 1.5;	
+			letter-spacing: 0.5;
+			/*padding: 15px;*/
+
+		}
+
+		.footer a:hover, a:active{
+			background-color: orange;
+			color: black;
+			overflow: hidden;
+
+		
